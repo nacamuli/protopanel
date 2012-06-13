@@ -1,22 +1,29 @@
-/* Author:
+/*****************
 
-*/
+THIS IS YOUR SCRIPT, A FEW GENERCI FUNCTIONS NEED TO EB ADDED
+
+*****************/
 
 
 /*
-Variables used by the script that can be modified
+Examples of variables used by the script that can be modified
 */
 
-var1=50;
+var1=300;
 var2=78;
 var3=32;
-var4=80;
+var4=600;
+
+/**
+Init the protoPanel
+**/
+newProtopanel();
 
 
-function genericCallback(){
-	console.log("genericCallback called")
-}
-
+/**
+Callback example
+**/
 function specificCallback(){
 	console.log("specificCallback called")
 }
+
